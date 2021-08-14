@@ -1,0 +1,52 @@
+@use '../utils' as *;
+@use './colors' as *;
+
+h1,
+h2,
+p,
+a {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 600;
+  margin: 5rem auto;
+  text-align: center;
+
+  @media screen and (max-width: 900px) {
+    margin: 2.5rem auto;
+  }
+}
+
+h2 {
+  //   font-size: 1.5rem;
+  font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+  font-weight: 600;
+  margin: 1em 0;
+
+  @media screen and (max-width: 900px) {
+    font-weight: 700;
+  }
+}
+
+p {
+  // font-size: rem(16);
+  // font-size: clamp(1rem, 1vw, 2rem);
+  font-weight: 500;
+  //   max-width: 70ch;
+}
+
+a,
+a:visited,
+a:active {
+  font-size: rem(16);
+  font-weight: 700;
+  color: $shadow;
+}
+
+button {
+  font-size: rem(16);
+  font-weight: 700;
+  text-transform: uppercase;
+}

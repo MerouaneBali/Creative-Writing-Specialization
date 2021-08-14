@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding: 5em 30vw;
+  color: #252523;
+  background-color: #ffe761;
+}
+@media screen and (max-width: 900px) {
+  body {
+    padding: 2.5em;
+  }
+}
+
+p + p {
+  margin-top: 1.25em;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.625em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffe761;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #252523;
+  border-radius: 0.625rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #252523;
+}
+
+html {
+  font-family: "Kanit", sans-serif;
+}
+
+h1,
+h2,
+p,
+a {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 600;
+  margin: 5rem auto;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    margin: 2.5rem auto;
+  }
+}
+
+h2 {
+  font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+  font-weight: 600;
+  margin: 1em 0;
+}
+@media screen and (max-width: 900px) {
+  h2 {
+    font-weight: 700;
+  }
+}
+
+p {
+  font-weight: 500;
+}
+
+a,
+a:visited,
+a:active {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(37, 37, 35, 0.25);
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

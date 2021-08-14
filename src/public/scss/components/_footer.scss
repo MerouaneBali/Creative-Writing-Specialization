@@ -1,0 +1,32 @@
+footer {
+  margin-top: 5em;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+
+    li + li {
+      margin-left: 1em;
+    }
+  }
+
+  img {
+    float: right;
+    height: 100px;
+    margin-left: 2.5em;
+  }
+
+  @media screen and (max-width: 600px) {
+    ul {
+      display: inline-flex;
+    }
+
+    img {
+      float: left;
+      margin-left: 0;
+      margin-right: 2.5em;
+    }
+  }
+}

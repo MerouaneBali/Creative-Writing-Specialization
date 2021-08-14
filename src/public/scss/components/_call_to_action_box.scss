@@ -1,0 +1,12 @@
+@use '../base/colors' as *;
+
+.call_to_action_box {
+  border: 0.5em solid $dark;
+  padding: 1.875em;
+  margin-top: 2.5em;
+  margin: 5em 0;
+
+  @media screen and (max-width: 1366px) {
+    margin: 2.5em 0;
+  }
+}
