@@ -1,0 +1,9 @@
+@use '../base/colors' as *;
+
+input {
+  font-weight: 600;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba($light, 0.5);
+}

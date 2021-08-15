@@ -71,3 +71,37 @@
 .call-to-action-box {
   margin: 2.5em 0;
 }
+
+.call-to-action-box {
+  display: grid;
+  grid-template-rows: auto auto 50% auto;
+  row-gap: 2em;
+}
+.call-to-action-box div {
+  display: flex;
+  flex-direction: column;
+}
+.call-to-action-box div label {
+  margin-bottom: 1em;
+}
+.call-to-action-box .bio {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2em;
+}
+.call-to-action-box .message input {
+  height: 300px;
+}
+.call-to-action-box button {
+  margin-top: 0;
+}
+@media screen and (max-width: 590px) {
+  .call-to-action-box {
+    grid-template-rows: repeat(4, auto);
+  }
+  .call-to-action-box .bio {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+    row-gap: 2em;
+  }
+}

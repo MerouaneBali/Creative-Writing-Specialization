@@ -52,7 +52,7 @@ p + p {
   background: #252523;
 }
 
-html {
+html, * {
   font-family: "Kanit", sans-serif;
 }
 
@@ -119,4 +119,8 @@ details summary {
 }
 details > :not(summary) {
   padding-left: 1.589em;
+}
+
+label {
+  font-weight: 500;
 }

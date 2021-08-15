@@ -53,6 +53,14 @@ button:hover {
   background-color: #ffe761;
 }
 
+input {
+  font-weight: 600;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .call-to-action-box {
   border: 0.5em solid #252523;
   padding: 1.875em;

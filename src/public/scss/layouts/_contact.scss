@@ -1,0 +1,38 @@
+.call-to-action-box {
+  display: grid;
+  grid-template-rows: auto auto 50% auto;
+  row-gap: 2em;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-bottom: 1em;
+    }
+  }
+
+  .bio {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+  }
+
+  .message input {
+    height: 300px;
+  }
+
+  button {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 590px) {
+    grid-template-rows: repeat(4, auto);
+
+    .bio {
+      grid-template-columns: none;
+      grid-template-rows: auto auto;
+      row-gap: 2em;
+    }
+  }
+}
