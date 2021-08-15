@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding: 5em 29.9vw;
+  padding: 5em 29.8vw;
   color: #252523;
   background-color: #ffe761;
 }
@@ -104,6 +104,23 @@ button {
   text-transform: uppercase;
 }
 
+details + details {
+  margin-top: 2.5em;
+}
+details summary {
+  font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+  font-weight: 600;
+  margin: 1em 0;
+}
+@media screen and (max-width: 900px) {
+  details summary {
+    font-weight: 700;
+  }
+}
+details > :not(summary) {
+  padding-left: 1.589em;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -133,7 +150,7 @@ nav ul a::before {
   transform: scaleX(0);
   transform-origin: left;
 }
-nav ul a:hover::before, nav ul a:focus::before {
+nav ul a:hover::before {
   transform: scaleX(1);
 }
 

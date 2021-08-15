@@ -32,8 +32,7 @@ nav ul {
       transform-origin: left;
     }
 
-    &:hover::before,
-    &:focus::before {
+    &:hover::before {
       transform: scaleX(1);
     }
   }

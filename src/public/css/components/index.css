@@ -27,7 +27,7 @@ nav ul a::before {
   transform: scaleX(0);
   transform-origin: left;
 }
-nav ul a:hover::before, nav ul a:focus::before {
+nav ul a:hover::before {
   transform: scaleX(1);
 }
 

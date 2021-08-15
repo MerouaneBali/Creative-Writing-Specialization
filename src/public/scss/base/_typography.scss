@@ -50,3 +50,23 @@ button {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+details {
+  & + & {
+    margin-top: 2.5em;
+  }
+
+  summary {
+    font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+    font-weight: 600;
+    margin: 1em 0;
+
+    @media screen and (max-width: 900px) {
+      font-weight: 700;
+    }
+  }
+
+  > :not(summary) {
+    padding-left: 1.589em;
+  }
+}
