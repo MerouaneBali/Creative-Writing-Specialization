@@ -12,13 +12,18 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding: 5em 30vw;
+  padding: 5em 29.9vw;
   color: #252523;
   background-color: #ffe761;
 }
 @media screen and (max-width: 900px) {
   body {
     padding: 2.5em;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+  body {
+    padding: 5em 15vw;
   }
 }
 

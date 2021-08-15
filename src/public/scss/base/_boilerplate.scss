@@ -13,33 +13,20 @@ html {
 body {
   margin: 0;
   padding: 0;
-  padding: 5em 30vw;
-  // padding: 5em clamp(5em, 30vw, 32.8125em);
+  padding: 5em 29.9vw;
   color: $dark;
   background-color: $bg;
 
-  // @media (max-width: 1440px) {
-  //   padding: 5em clamp(5em, 25vw, 32.8125em);
-
-  //   &::after {
-  //     content: "<=1440px";
-  //   }
-  // }
-
-  // @media (max-width: 1366px) {
-  //   padding: 5em clamp(5em, 20vw, 32.8125em);
-
-  //   &::after {
-  //     content: "<=1366px";
-  //   }
-  // }
-
   @media screen and (max-width: 900px) {
     padding: 2.5em;
+  }
 
-    // &::after {
-    //   content: "<=900px";
-    // }
+  // @media screen and (max-width: 1700px) {
+  //   padding: 5em 20vw;
+  // }
+
+  @media screen and (min-width: 900px) and (max-width: 1440px) {
+    padding: 5em 15vw;
   }
 }
 

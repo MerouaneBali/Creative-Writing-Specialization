@@ -53,14 +53,14 @@ button:hover {
   background-color: #ffe761;
 }
 
-.call_to_action_box {
+.call-to-action-box {
   border: 0.5em solid #252523;
   padding: 1.875em;
   margin-top: 2.5em;
   margin: 5em 0;
 }
 @media screen and (max-width: 1366px) {
-  .call_to_action_box {
+  .call-to-action-box {
     margin: 2.5em 0;
   }
 }

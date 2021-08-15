@@ -8,7 +8,7 @@
   position: relative;
   overflow: visible;
   width: 100vw;
-  transform: translateX(-30vw);
+  transform: translateX(-30.4vw);
   padding: 5em 30vw;
 
   // &::before {
@@ -78,11 +78,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 5em;
+  margin: 5em 0;
 
   @media screen and (max-width: 1366px) {
     flex-direction: column;
-    margin: 5rem 0;
 
     img + img {
       margin-top: 5rem;
