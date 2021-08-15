@@ -67,6 +67,9 @@ input {
   margin-top: 2.5em;
   margin: 5em 0;
 }
+.call-to-action-box h2 {
+  margin-top: 0;
+}
 @media screen and (max-width: 1366px) {
   .call-to-action-box {
     margin: 2.5em 0;
