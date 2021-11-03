@@ -44,8 +44,9 @@
       color: $bg;
       cursor: pointer;
 
-      span {
+      span a {
         color: $light;
+        text-decoration-line: none;
       }
     }
   }
